@@ -3153,7 +3153,7 @@ export function reappearLayoutEffects(
       safelyAttachRef(finishedWork, finishedWork.return);
       break;
     }
-    // Unlike commitLayoutEffectsOnFiber, we don't need to handle HostRoot
+    // Unlike commitLayoutEffectOnFiber, we don't need to handle HostRoot
     // because this function only visits nodes that are inside an
     // Offscreen fiber.
     // case HostRoot: {
